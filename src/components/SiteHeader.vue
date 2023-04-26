@@ -24,6 +24,14 @@
             <NavJumbo/>
         </div>
 
+        <div id="slogan">
+            <div class="container my-5 py-5">
+                <h1 class="py-3 fw-semibold">Drive with Avada</h1>
+                <h3 class="fw-light">We offer the finest driving tuition money can buy</h3>
+            </div>
+        </div>
+
+
     </section>
     
 </template>
@@ -47,6 +55,16 @@
         background-color: $dark-opacity;
         color: $light;
     }
-}
 
+    #slogan {
+        color: $light;
+        position: relative;
+        left: 0;
+        top: 210px;
+
+        h1 {
+            font-size: 4.25rem;
+        }
+    }
+}
 </style>
