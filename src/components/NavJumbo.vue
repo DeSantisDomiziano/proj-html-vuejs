@@ -28,7 +28,6 @@
                         item: 'BLOG',
                         new: false
                     },
-
                 ]
             }
         }
@@ -88,5 +87,4 @@ span {
     padding: 0.1rem 0.4rem;
     border-radius: 0.25rem;
 }
-
 </style>
