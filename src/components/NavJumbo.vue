@@ -3,14 +3,33 @@
         name: 'NavJumbo',
         data() {
             return {
-                navbar: {
-                    home: 'HOME',
-                    about: 'ABOUT',
-                    prices: 'PRICES',
-                    courses: 'COURSES',
-                    location: 'LOCATION',
-                    blog: 'BLOG'
-                }
+                navbar: [
+                    {
+                        item: 'HOME',
+                        new: false
+                    },
+                    {
+                        item: 'ABOUT',
+                        new: false
+                    },
+                    {
+                        item: 'PRICES',
+                        new: false
+                    },
+                    {
+                        item: 'COURSES',
+                        new: true
+                    },
+                    {
+                        item: 'LOCATION',
+                        new: false
+                    },
+                    {
+                        item: 'BLOG',
+                        new: false
+                    },
+
+                ]
             }
         }
     }
@@ -24,7 +43,10 @@
             </div>
             <div class="col-auto">
                 <div class="row">
-                    <div class="col-auto align-self-end p_hover" v-for="nav in navbar">{{ nav }}</div>
+                    <div class="col-auto align-self-end p_hover position-relative" v-for="nav in navbar">
+                        {{ nav.item }}
+                        <span v-if="nav.new">new</span>
+                    </div>
                     <div class="col-auto align-self-end">
                         <div class="btn">BOOK NOW</div>
                     </div>
@@ -55,6 +77,16 @@
 .p_hover:hover {
     border-bottom: 3px solid $primary;
     color: $primary;
+
+    span {
+        color: $light;
+    }
+}
+
+span {
+    background-color: $primary;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.25rem;
 }
 
 </style>

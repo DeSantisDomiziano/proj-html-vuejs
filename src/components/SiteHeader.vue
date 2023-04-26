@@ -14,7 +14,7 @@
 
 <template>
 
-    <section id="jumbo">
+    <section id="jumbo" class="position-relative">
 
         <div id="info">
             <InfoJumbo/>
@@ -42,7 +42,7 @@
 
 #jumbo {
     background-image: url('../assets/img/bg/homepage-hero-background.jpg');
-    height: 65vh;
+    height: 70vh;
     background-size: cover;
 
     #info {
