@@ -13,13 +13,19 @@
 </script>
 
 <template>
-
+<div id="chief">
     <SiteHeader/>
     <SiteMain/>
 <!--     <SiteFooter/> 
- -->
+    
+-->         
+</div>
 </template>
 
 <style>
+
+#chief {
+    overflow-x: hidden;
+}
 
 </style>

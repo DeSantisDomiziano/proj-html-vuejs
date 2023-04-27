@@ -1,48 +1,49 @@
 <script>
-    export default {
-        name: 'CourseInfo'
+import CourseOption from './CourseOption.vue'
+
+export default {
+    name: 'CourseInfo',
+    components: {
+        CourseOption
     }
+}
 </script>
 
 <template>
     <div class="container text-center py-5">
-        <div class="row py-5">
+        <div class="row py-4 justify-content-between">
             <div class="col-4">
                 <div class="card px-4 py-5 position-relative">
                     <h2>Courses</h2>
                     <p class="my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda velit obcaecati illum ex aperiam odit exercitationem minima earum optio?</p>
-                    <button class="my-4 align-self-center">COURSE INFORMATION</button>
+                    <button class="mt-4 align-self-center">COURSE INFORMATION</button>
                     <img src="../assets/img/new-corner.jpg" alt="">
                 </div>
             </div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
+            <CourseOption/>
         </div>
     </div>
 </template>
 
-
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
-
-button {
-    background-color: $primary;
-    border: none;
-    padding: 0.5rem 1.75rem;
-    border-radius: 2rem;
-    font-weight: 600;
-    color: $light;
-}
 
 .card {
     position: absolute;
     overflow: hidden;
     border-radius: 1rem;
-    top: -130px;
+    top: -100px;
     left: 0;
-
-
+  
+    button {
+        background-color: $primary;
+        border: none;
+        padding: 0.5rem 1.75rem;
+        border-radius: 2rem;
+        font-weight: 600;
+        color: $light;
+        margin-bottom: 3.5rem;
+    }
     img {
         max-width: 80px;
         position: absolute;
@@ -58,7 +59,4 @@ button {
         font-weight: 600;
     }
 }
-
-
-
 </style>

@@ -9,14 +9,13 @@ export default {
 </script>
 <template>
     
-<img src="../assets/img/latestnews/latestnews-bottom.png" alt="" id="uno">     
-<img src="../assets/img/latestnews/latestnews-bottom.png" alt="" id="due">
-
+        <img src="../assets/img/latestnews/latestnews-bottom.png" alt="" id="uno">
+        <img src="../assets/img/latestnews/latestnews-bottom.png" alt="" id="due">
 
     <section id="course-info">
         <CourseInfo/>
     </section>
-    
+
 </template>
 
 
@@ -45,4 +44,5 @@ img {
 #due {
     left: 50%;
 }
+
 </style>

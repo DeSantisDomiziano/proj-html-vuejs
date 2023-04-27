@@ -42,7 +42,7 @@ export default {
     background-image: url('../assets/img/bg/promise-background.jpg');
     background-size: cover;
     background-position: bottom;
-    height: 70vh;
+    height: 60vh;
     margin-bottom: 9rem;
     position: relative;
 }
