@@ -44,5 +44,4 @@ img {
 #due {
     left: 50%;
 }
-
 </style>

@@ -2,13 +2,15 @@
 import BehindWheel from './BehindWheel.vue'
 import StartLearning from './StartLearning.vue'
 import CoursesAvada from './CoursesAvada.vue'
+import PercentageRate from './PercentageRate.vue'
 
 export default {
     name: 'SiteMain',   
     components: {
         BehindWheel,
         StartLearning,
-        CoursesAvada
+        CoursesAvada,
+        PercentageRate
     }
 }
 </script>
@@ -25,6 +27,10 @@ export default {
 
     <section id="Courses">
         <CoursesAvada/>
+    </section>
+
+    <section id="Percentage">
+        <PercentageRate/>
     </section>
     
 </template>
@@ -43,7 +49,6 @@ export default {
     background-size: cover;
     background-position: bottom;
     height: 60vh;
-    margin-bottom: 9rem;
     position: relative;
 }
 </style>

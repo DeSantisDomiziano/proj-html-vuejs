@@ -34,6 +34,7 @@ export default {
     border-radius: 1rem;
     top: -100px;
     left: 0;
+    box-shadow: 0 25px 10px 4px $dark-opacity;
   
     button {
         background-color: $primary;
@@ -43,6 +44,10 @@ export default {
         font-weight: 600;
         color: $light;
         margin-bottom: 3.5rem;
+
+        &:hover {
+            background-color: $hover;
+        }
     }
     img {
         max-width: 80px;

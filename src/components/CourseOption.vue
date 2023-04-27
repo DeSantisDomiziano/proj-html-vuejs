@@ -50,6 +50,11 @@ export default {
         background-color: transparent;
         border-radius: 2rem;
         font-size: 1.3rem;
+
+        &:hover {
+            color: $primary;
+            border: 3px solid $primary;
+        }
     }
 
     p {
