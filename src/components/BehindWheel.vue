@@ -13,7 +13,7 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptas aut ullam recusandae quidem tempora voluptate doloribus quisquam, libero laborum ipsa assumenda ipsum minus voluptates necessitatibus, nam sapiente magni id itaque rerum fugiat cupiditate minima. Odio nam, exercitationem magnam in, molestias blanditiis iste ullam aut hic officia consectetur numquam voluptas voluptates deserunt dignissimos quisquam possimus.</p>
             </div>
             <div class="col">
-                <div class="card text-center py-5 px-4" id="firstLesson">
+                <div class="card text-center py-5 px-5" id="firstLesson">
                     <h2 class="pb-2">First Lesson Free!</h2>
                     <p class="pb-4">When you make a block booking with us your first lesson is included free.</p>
                     <form id="customer-data">
@@ -44,9 +44,17 @@ export default {
     top: -50px;
 }
 
+.container {
+    margin-bottom: 12rem;
+}
+
 h2 {
     font-weight: bold;
     color: #494c4e;
+}
+
+p {
+    color: $gray-txt;
 }
 .card {
     box-shadow: 0px 30px 20px 0px #e8e8e8;

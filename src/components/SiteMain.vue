@@ -1,12 +1,14 @@
 <script>
 import BehindWheel from './BehindWheel.vue'
 import StartLearning from './StartLearning.vue'
+import CoursesAvada from './CoursesAvada.vue'
 
 export default {
     name: 'SiteMain',   
     components: {
         BehindWheel,
-        StartLearning
+        StartLearning,
+        CoursesAvada
     }
 }
 </script>
@@ -20,18 +22,28 @@ export default {
     <section id="StartLearning">
         <StartLearning/>
     </section>
+
+    <section id="Courses">
+        <CoursesAvada/>
+    </section>
     
 </template>
 
 
 <style lang="scss" scoped>
-section {
-    margin-bottom: 10rem;
-}
+
 
 #StartLearning {
     background-image: url('../assets/img/bg/horizontal-cta-background.jpg');
     background-size: cover;
 }
 
+#Courses {
+    background-image: url('../assets/img/bg/promise-background.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    margin-bottom: 9rem;
+    position: relative;
+}
 </style>
