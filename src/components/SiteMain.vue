@@ -3,6 +3,7 @@ import BehindWheel from './BehindWheel.vue'
 import StartLearning from './StartLearning.vue'
 import CoursesAvada from './CoursesAvada.vue'
 import PercentageRate from './PercentageRate.vue'
+import OurIstructos from './OurIstructos.vue'
 
 export default {
     name: 'SiteMain',   
@@ -10,7 +11,8 @@ export default {
         BehindWheel,
         StartLearning,
         CoursesAvada,
-        PercentageRate
+        PercentageRate,
+        OurIstructos
     }
 }
 </script>
@@ -31,6 +33,10 @@ export default {
 
     <section id="Percentage">
         <PercentageRate/>
+    </section>
+
+    <section id="Istructors">
+        <OurIstructos/>
     </section>
     
 </template>

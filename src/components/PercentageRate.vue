@@ -66,7 +66,8 @@
     border-top: 9px solid $primary;
     border-radius: 2rem 2rem 1.5rem 1.5rem;
     position: relative;
-    top: -230px
+    top: -230px;
+    box-shadow: 0 25px 10px 4px $bg-input;
 }
 
 .outer {
