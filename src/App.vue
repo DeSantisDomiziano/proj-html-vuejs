@@ -50,6 +50,7 @@
     right: 10px;
     border-radius: 0.5rem 0.5rem 0 0;
     background-color: $dark-opacity;
+    color: $light;
 }
 
 .badge-container {
