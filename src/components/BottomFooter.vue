@@ -10,6 +10,7 @@ export default {
 </script>
 
 <template>
+
     <div class="container py-5">
         <div class="row justify-content-between my-4">
             <div class="col-auto">

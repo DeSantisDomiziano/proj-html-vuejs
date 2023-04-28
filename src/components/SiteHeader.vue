@@ -1,14 +1,12 @@
 <script>
     import InfoJumbo from './InfoJumbo.vue'
     import NavJumbo from './NavJumbo.vue'
-    import BadgeJumbo from './BadgeJumbo.vue'
 
     export default {
         name: 'SiteHeader',
         components: {
             InfoJumbo,
-            NavJumbo,
-            BadgeJumbo
+            NavJumbo
         }
     }
 </script>
@@ -32,12 +30,6 @@
                 <h3 class="fw-light">We offer the finest driving tuition money can buy</h3>
             </div>
         </div>
-
-        <div id="badge">
-            <BadgeJumbo/>
-        </div>
-
-
     </section>
     
 </template>
