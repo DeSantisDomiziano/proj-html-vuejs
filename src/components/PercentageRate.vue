@@ -21,11 +21,8 @@
         },
         mounted() {
             const percentageRate = document.querySelectorAll('circle')
-            console.log(percentageRate);
             percentageRate.forEach((rate, index) => {
-                console.log(rate, index);
                 rate.style.strokeDashoffset = `${ (this.rates[index].perc * 6.52).toFixed(0) - 652 }`
-                console.log(rate.style.strokeDashoffset);
                 if (rate.style.strokeDashoffset == -652) {
                     rate.style.strokeWidth = 0
                 }
@@ -85,7 +82,6 @@
     border-radius: 50%;
     box-shadow: inset 4px 4px 10px -1px $dark-opacity,
                 inset -4px -4px 10px -1px $smoke-white;
-
 }
 
 #number {

@@ -59,7 +59,7 @@ export default {
         <p>Here's what our happy drivers had to say aboust our service:</p>
         <div class="testimonials active">
             <img :src="getImage(i)" alt="">
-            <div class="overview">
+            <div class="overview mb-5">
                 <p class="mt-5">
                     {{ testimonials[i].overview }}
                 </p>
