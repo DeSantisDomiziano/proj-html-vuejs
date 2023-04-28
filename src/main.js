@@ -10,6 +10,10 @@ import { faMountain } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-library.add(faPhone, faMountain, faFacebookF, faInstagram, faTwitter)
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
+import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons'
+library.add(faPhone, faMountain, faFacebookF, faInstagram, faTwitter, faHouse, faEnvelope, faLink, faArrowAltCircleRight)
 
 createApp(App).component('f-a-icon', FontAwesomeIcon).mount('#app')

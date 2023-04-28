@@ -30,6 +30,10 @@ button {
     font-weight: 700;
     color: $light;
     border-radius: 2rem;
+
+    &:hover {
+        background-color: $hover;
+    }
 }
 
 p {

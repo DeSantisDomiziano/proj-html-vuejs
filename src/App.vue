@@ -2,11 +2,13 @@
 
     import SiteHeader from './components/SiteHeader.vue'
     import SiteMain from './components/SiteMain.vue'
+    import SiteFooter from './components/SiteFooter.vue'
 
     export default {
         components: {
             SiteHeader,
             SiteMain,
+            SiteFooter
         }
     }
 
@@ -16,9 +18,9 @@
 <div id="chief">
     <SiteHeader/>
     <SiteMain/>
-<!--     <SiteFooter/> 
+    <SiteFooter/> 
     
--->         
+        
 </div>
 </template>
 
