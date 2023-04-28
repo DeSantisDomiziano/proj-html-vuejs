@@ -68,6 +68,10 @@ a {
     border-top: 7px solid $primary;
     border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
     box-shadow: 0 25px 10px 4px $gray;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 </style>

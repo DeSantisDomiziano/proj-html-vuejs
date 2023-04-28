@@ -4,6 +4,7 @@ import StartLearning from './StartLearning.vue'
 import CoursesAvada from './CoursesAvada.vue'
 import PercentageRate from './PercentageRate.vue'
 import OurIstructos from './OurIstructos.vue'
+import TestimonialsAvada from './TestimonialsAvada.vue'
 
 export default {
     name: 'SiteMain',   
@@ -12,7 +13,8 @@ export default {
         StartLearning,
         CoursesAvada,
         PercentageRate,
-        OurIstructos
+        OurIstructos,
+        TestimonialsAvada
     }
 }
 </script>
@@ -38,6 +40,10 @@ export default {
     <section id="Istructors">
         <OurIstructos/>
     </section>
+
+    <section id="Testimonials">
+        <TestimonialsAvada/>
+    </section>
     
 </template>
 
@@ -56,5 +62,11 @@ export default {
     background-position: bottom;
     height: 60vh;
     position: relative;
+}
+
+#Testimonials {
+    background-image: url('../assets/img/bg/testimonial-background.jpg');
+    background-position: center;
+    background-size: cover;
 }
 </style>
