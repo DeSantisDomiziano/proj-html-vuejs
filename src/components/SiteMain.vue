@@ -6,6 +6,7 @@ import PercentageRate from './PercentageRate.vue'
 import OurIstructos from './OurIstructos.vue'
 import TestimonialsAvada from './TestimonialsAvada.vue'
 import LatestNews from './LatestNews.vue'
+import NewsLetter from './NewsLetter.vue'
 
 export default {
     name: 'SiteMain',   
@@ -16,7 +17,8 @@ export default {
         PercentageRate,
         OurIstructos,
         TestimonialsAvada,
-        LatestNews
+        LatestNews,
+        NewsLetter
     }
 }
 </script>
@@ -50,6 +52,10 @@ export default {
     <section id="LatestNews">
         <LatestNews/>
     </section>
+
+    <section id="NewsLetter">
+        <NewsLetter/>
+    </section>
     
 </template>
 
@@ -80,5 +86,11 @@ export default {
     background-image: url('../assets/img/latestnews/latestnews-background.jpg');
     background-position: center;
     background-size: cover;
+}
+
+#NewsLetter {
+    background-image: url('../assets/img/bg/newsletter_background.jpg');
+    background-size: cover;
+
 }
 </style>
