@@ -16,15 +16,21 @@ export default {
         <TopFooter/>
     </section>
 
-    <section id="top">
+    <section id="bottom">
         <BottomFooter/>
     </section>
 </template>
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
 #top {
     background-image: url('../assets/img/footer/footer-background-color.jpg');
     background-size: cover;
+}
+
+#bottom {
+
+    background-color: $darker;
 }
 </style>
