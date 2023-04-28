@@ -12,13 +12,13 @@ export default {
 <template>
 
     <div class="container py-5">
-        <div class="row justify-content-between my-4">
+        <div class="row justify-content-between my-1">
             <div class="col-auto">
                 <p class="m-0">
                     &copy; Copyright 2012 - 2020 | Avada Theme by 
-                    <a href="#" id="copy">ThemeFusion </a>
+                    <a href="#" class="copy">ThemeFusion </a>
                     | All Rights Reserved | Powered by 
-                    <a href="#"> me</a>
+                    <a href="#" class="copy"> me</a>
                 </p>
             </div>
             <div class="col-auto d-flex">
@@ -38,7 +38,7 @@ export default {
     color: $smoke-white
 }
 
-#copy {
+.copy {
     text-decoration: none;
     color: $primary
 }
